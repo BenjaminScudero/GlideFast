@@ -5,7 +5,7 @@
         <allow_retake>false</allow_retake>
         <anonymize>false</anonymize>
         <business_rule/>
-        <condition table="asmt_metric_type">sys_id=f3276ea5db45a340d9e65d4e5e961968^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="f3276ea5db45a340d9e65d4e5e961968"/>
+        <condition table="asmt_metric_type">sys_id=b838ea29db45a340d9e65d4e5e9619bb^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="b838ea29db45a340d9e65d4e5e9619bb"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <default_filter/>
@@ -24,15 +24,15 @@
         <introduction/>
         <job/>
         <live_feed>false</live_feed>
-        <name>Employee Self Assessment</name>
+        <name>Copy of Employee Self Assessment</name>
         <notify_if_overdue>false</notify_if_overdue>
         <notify_user>true</notify_user>
         <one_click_survey>false</one_click_survey>
         <overdue_notify_user/>
         <portal_pagination>category</portal_pagination>
-        <publish_state>published</publish_state>
+        <publish_state>draft</publish_state>
         <roles>survey_admin,survey_reader</roles>
-        <sample_metric/>
+        <sample_metric display_value="">undefined</sample_metric>
         <scale_factor>10</scale_factor>
         <schedule_period>0</schedule_period>
         <schedule_type>on_demand</schedule_type>
@@ -41,20 +41,20 @@
         <source_table/>
         <sys_class_name>asmt_metric_type</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-09 15:40:16</sys_created_on>
+        <sys_created_on>2018-10-09 15:44:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f3276ea5db45a340d9e65d4e5e961968</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Employee Self Assessment</sys_name>
+        <sys_id>b838ea29db45a340d9e65d4e5e9619bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Copy of Employee Self Assessment</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
-        <sys_update_name>asmt_metric_type_f3276ea5db45a340d9e65d4e5e961968</sys_update_name>
+        <sys_update_name>asmt_metric_type_b838ea29db45a340d9e65d4e5e9619bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-09 15:44:38</sys_updated_on>
+        <sys_updated_on>2018-10-09 15:44:46</sys_updated_on>
         <table>asmt_metric_type</table>
         <url/>
     </asmt_metric_type>
-    <sys_translated_text action="delete_multiple" query="documentkey=f3276ea5db45a340d9e65d4e5e961968"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b838ea29db45a340d9e65d4e5e9619bb"/>
 </record_update>
