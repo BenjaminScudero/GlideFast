@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Anthony.Desousa</sys_created_by>
+        <sys_created_on>2018-10-04 18:39:36</sys_created_on>
+        <sys_id>06406104db49eb0076108d37489619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_gfnll_reviews_goals.x_gfnll_reviews.goals_user</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_security_acl display_value="x_gfnll_reviews_goals">8a406104db49eb0076108d37489619e9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_06406104db49eb0076108d37489619ec</sys_update_name>
+        <sys_updated_by>Anthony.Desousa</sys_updated_by>
+        <sys_updated_on>2018-10-04 18:39:36</sys_updated_on>
+        <sys_user_role display_value="x_gfnll_reviews.goals_user" name="x_gfnll_reviews.goals_user">f9406540db49eb0076108d37489619c3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="salary_percent_increase" label="Salary Percent Increase" language="en" table="x_gfnll_reviews_reviews">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>salary_percent_increase</element>
+            <help/>
+            <hint/>
+            <label>Salary Percent Increase</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_reviews</name>
+            <plural>Salary Percent Increases</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-04 18:08:21</sys_created_on>
+            <sys_id>10299500db49eb0076108d374896194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Salary Percent Increase</sys_name>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_documentation_x_gfnll_reviews_reviews_salary_percent_increase_en</sys_update_name>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-04 18:08:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
