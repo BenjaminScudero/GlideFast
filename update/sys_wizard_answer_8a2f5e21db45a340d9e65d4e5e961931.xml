@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Goals</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Goals</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">0ea6c166db13130006dad8c75e9619b1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-10-09 15:05:12</sys_created_on>
+        <sys_id>8a2f5e21db45a340d9e65d4e5e961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Goals</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sys_wizard_answer_8a2f5e21db45a340d9e65d4e5e961931</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-09 15:05:12</sys_updated_on>
+        <table/>
+        <target_url>x_gfnll_reviews_goals.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

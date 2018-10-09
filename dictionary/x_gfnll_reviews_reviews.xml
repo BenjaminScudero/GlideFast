@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" type="collection">
         <element label="Manager Assessment Score" max_length="40" name="assessment_score" type="string"/>
         <element label="Bonus Amount" max_length="20" name="bonus_amount" type="price"/>
@@ -10,8 +9,8 @@
         <element label="Self Assessment Score" max_length="40" name="self_assessment_score" type="string"/>
         <element choice="3" default="6" label="Time Period" max_length="40" name="time_period" type="string">
             <choice>
-                <element label="6 months" sequence="100" value="6"/>
-                <element label="12 months" sequence="200" value="12"/>
+                <element inactive_on_update="false" label="6 months" sequence="100" value="6"/>
+                <element inactive_on_update="false" label="12 months" sequence="200" value="12"/>
             </choice>
         </element>
     </element>

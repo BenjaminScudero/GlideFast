@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Goals" max_length="40" name="x_gfnll_reviews_goals" type="collection">
         <element choice="1" label="Goal Type" max_length="40" name="goal_type" type="string">
             <choice/>
