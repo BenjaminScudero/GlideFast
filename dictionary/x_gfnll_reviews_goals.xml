@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element extends="task" label="Goals" max_length="40" name="x_gfnll_reviews_goals" type="collection">
         <element choice="1" label="Goal Type" max_length="40" name="goal_type" type="string">
             <choice/>
         </element>
-        <element label="Review" max_length="1000" name="review" reference="x_gfnll_reviews_reviews" type="reference"/>
+        <element label="Review" max_length="32" name="review" reference="x_gfnll_reviews_reviews" type="reference"/>
         <element label="Target Completion" max_length="40" name="target_completion" type="due_date"/>
     </element>
 </database>

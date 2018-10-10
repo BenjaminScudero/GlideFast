@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_documentation element="self_assessment_score" label="Self Assessment Score" language="en" table="x_gfnll_reviews_reviews">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>self_assessment_score</element>

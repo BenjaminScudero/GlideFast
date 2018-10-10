@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric_type">
     <asmt_metric_type action="INSERT_OR_UPDATE">
         <active>true</active>
         <allow_public>false</allow_public>
@@ -27,18 +28,15 @@
         <name>Employee Self Assessment</name>
         <notify_if_overdue>false</notify_if_overdue>
         <notify_user>true</notify_user>
-        <one_click_survey>false</one_click_survey>
         <overdue_notify_user/>
         <portal_pagination>category</portal_pagination>
         <publish_state>published</publish_state>
         <roles>survey_admin,survey_reader</roles>
-        <sample_metric/>
         <scale_factor>10</scale_factor>
         <schedule_period>0</schedule_period>
         <schedule_type>on_demand</schedule_type>
         <scoring_type>percent</scoring_type>
         <signature/>
-        <source_table/>
         <sys_class_name>asmt_metric_type</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-09 15:40:16</sys_created_on>

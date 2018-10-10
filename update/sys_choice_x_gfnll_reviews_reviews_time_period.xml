@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="time_period" table="x_gfnll_reviews_reviews" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -44,7 +45,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Anthony.Desousa</sys_created_by>
             <sys_created_on>2018-10-04 16:58:13</sys_created_on>
-            <sys_id>083f1261db45a340d9e65d4e5e961928</sys_id>
+            <sys_id>8379622ddb49af0076108d374896195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>time_period</sys_name>
             <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
