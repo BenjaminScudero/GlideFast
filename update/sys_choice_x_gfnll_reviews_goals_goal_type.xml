@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="goal_type" table="x_gfnll_reviews_goals" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>goal_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Certification</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_goals</name>
+            <sequence/>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>987e68cedb0da3401b96d2984b961973</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:11:18</sys_updated_on>
+            <value>certification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>goal_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Activity</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_goals</name>
+            <sequence/>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56ee6ccedb0da3401b96d2984b961991</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:12:33</sys_updated_on>
+            <value>internal activity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>goal_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recertification</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_goals</name>
+            <sequence/>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:09:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a16eec8edb0da3401b96d2984b9619e8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:09:47</sys_updated_on>
+            <value>recertification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>goal_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_goals</name>
+            <sequence/>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:12:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>441faccedb0da3401b96d2984b961974</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:12:46</sys_updated_on>
+            <value>sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>goal_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_goals</name>
+            <sequence/>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:11:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22cee4cedb0da3401b96d2984b9619dc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:12:15</sys_updated_on>
+            <value>training</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>goal_type</element>
+            <name>x_gfnll_reviews_goals</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 20:09:41</sys_created_on>
+            <sys_id>907e28cedb0da3401b96d2984b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>goal_type</sys_name>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_choice_x_gfnll_reviews_goals_goal_type</sys_update_name>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 20:09:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
