@@ -28,15 +28,15 @@
             <label>Open</label>
             <language>en</language>
             <name>x_gfnll_reviews_reviews</name>
-            <sequence>0</sequence>
+            <sequence>1</sequence>
             <sys_created_by>Anthony.Desousa</sys_created_by>
             <sys_created_on>2018-10-04 17:22:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>dabe0148db09eb0076108d374896190f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 17:28:36</sys_updated_on>
+            <sys_updated_on>2018-10-10 17:38:30</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -82,18 +82,37 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Assessment Complete</label>
             <language>en</language>
             <name>x_gfnll_reviews_reviews</name>
             <sequence>4</sequence>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 18:26:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91d61c8adbc9a3401b96d2984b961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 18:26:32</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_reviews</name>
+            <sequence>5</sequence>
             <sys_created_by>Anthony.Desousa</sys_created_by>
             <sys_created_on>2018-10-04 17:22:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1abecd48db09eb0076108d3748961900</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 17:28:47</sys_updated_on>
+            <sys_updated_on>2018-10-10 17:38:51</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

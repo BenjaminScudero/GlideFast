@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_gfnll_reviews.reviews_user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ce349c0db09eb0076108d37489619cd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Reviews</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_app_module_1ce349c0db09eb0076108d37489619cd</sys_update_name>
         <sys_updated_by>Anthony.Desousa</sys_updated_by>
-        <sys_updated_on>2018-10-04 16:35:31</sys_updated_on>
+        <sys_updated_on>2018-10-10 19:01:11</sys_updated_on>
         <timeline_page/>
         <title>Reviews</title>
         <uncancelable>false</uncancelable>

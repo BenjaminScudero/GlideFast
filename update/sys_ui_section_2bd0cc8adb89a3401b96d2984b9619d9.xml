@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Goal Notes" section_id="2bd0cc8adb89a3401b96d2984b9619d9" sys_domain="global" table="x_gfnll_reviews_goals" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 17:31:45</sys_created_on>
+            <sys_id>7a4a4882dbc9a3401b96d2984b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Goal Notes" display_value="Goal Notes" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">2bd0cc8adb89a3401b96d2984b9619d9</sys_ui_section>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 17:31:45</sys_created_on>
+            <sys_id>fa4a4882dbc9a3401b96d2984b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Goal Notes" display_value="Goal Notes" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">2bd0cc8adb89a3401b96d2984b9619d9</sys_ui_section>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 17:31:45</sys_created_on>
+            <sys_id>7e4a4882dbc9a3401b96d2984b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Goal Notes" display_value="Goal Notes" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">2bd0cc8adb89a3401b96d2984b9619d9</sys_ui_section>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Goal Notes</caption>
+            <header>false</header>
+            <name>x_gfnll_reviews_goals</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 16:50:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bd0cc8adb89a3401b96d2984b9619d9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Goal Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_ui_section_2bd0cc8adb89a3401b96d2984b9619d9</sys_update_name>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 16:52:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

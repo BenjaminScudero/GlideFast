@@ -6,7 +6,7 @@
         <allow_add_info>false</allow_add_info>
         <allow_not_applicable>false</allow_not_applicable>
         <auto_gen>false</auto_gen>
-        <category display_value="Employee Self Assessment">84376ae5db45a340d9e65d4e5e96194e</category>
+        <category display_value="Employee Assessment">84376ae5db45a340d9e65d4e5e96194e</category>
         <cond_question>always</cond_question>
         <correct_answer/>
         <correct_answer_checkbox/>

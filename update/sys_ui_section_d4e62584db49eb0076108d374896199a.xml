@@ -5,181 +5,97 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>90e62584db49eb0076108d374896199b</sys_id>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>4af080cadb89a3401b96d2984b961959</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review</element>
+            <position>1</position>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>caf080cadb89a3401b96d2984b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>1</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>14e62584db49eb0076108d374896199b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
             <position>2</position>
             <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>94e62584db49eb0076108d374896199b</sys_id>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>4ef080cadb89a3401b96d2984b961959</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>3</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>18e62584db49eb0076108d374896199b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>98e62584db49eb0076108d374896199b</sys_id>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>cef080cadb89a3401b96d2984b961959</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>1ce62584db49eb0076108d374896199b</sys_id>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>42f080cadb89a3401b96d2984b96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
+            <position>5</position>
+            <sys_created_by>Anthony.Desousa</sys_created_by>
+            <sys_created_on>2018-10-10 16:51:01</sys_created_on>
+            <sys_id>c2f080cadb89a3401b96d2984b96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
+            <sys_updated_by>Anthony.Desousa</sys_updated_by>
+            <sys_updated_on>2018-10-10 16:51:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_year</element>
             <position>6</position>
             <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>9ce62584db49eb0076108d374896199b</sys_id>
+            <sys_created_on>2018-10-10 19:58:38</sys_created_on>
+            <sys_id>5aebe84edb0da3401b96d2984b9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
             <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>7</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>10e62584db49eb0076108d374896199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>90e62584db49eb0076108d374896199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>9</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>14e62584db49eb0076108d374896199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>10</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>94e62584db49eb0076108d374896199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>11</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:08:25</sys_created_on>
-            <sys_id>18e62584db49eb0076108d374896199c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:08:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>goal_type</element>
-            <position>12</position>
-            <sys_created_by>Anthony.Desousa</sys_created_by>
-            <sys_created_on>2018-10-04 19:28:41</sys_created_on>
-            <sys_id>458b6988db49eb0076108d3748961904</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_goals" sys_domain="global" view="Default view">d4e62584db49eb0076108d374896199a</sys_ui_section>
-            <sys_updated_by>Anthony.Desousa</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:28:41</sys_updated_on>
+            <sys_updated_on>2018-10-10 19:58:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

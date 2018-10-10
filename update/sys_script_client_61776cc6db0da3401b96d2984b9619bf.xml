@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Assigned to</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var user = g_form.getValue('assigned_to');
+	if(user == ''){
+		var review = g_form.getReference('review', setUser);
+	}
+	function setUser(review){
+		g_form.setValue('assigned_to', review.assigned_to);
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Anthony.Desousa</sys_created_by>
+        <sys_created_on>2018-10-10 19:43:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61776cc6db0da3401b96d2984b9619bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Assigned to</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sys_script_client_61776cc6db0da3401b96d2984b9619bf</sys_update_name>
+        <sys_updated_by>Anthony.Desousa</sys_updated_by>
+        <sys_updated_on>2018-10-10 19:44:44</sys_updated_on>
+        <table>x_gfnll_reviews_goals</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
