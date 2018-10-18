@@ -2,11 +2,11 @@
 <record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>false</actions_access>
-        <alter_access>false</alter_access>
-        <client_scripts_access>false</client_scripts_access>
-        <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
@@ -24,15 +24,15 @@
         <sys_created_by>Anthony.Desousa</sys_created_by>
         <sys_created_on>2018-10-04 16:35:31</sys_created_on>
         <sys_id>2d938980db09eb0076108d3748961990</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reviews</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_db_object_2d938980db09eb0076108d3748961990</sys_update_name>
-        <sys_updated_by>Anthony.Desousa</sys_updated_by>
-        <sys_updated_on>2018-10-04 16:35:32</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-17 02:42:11</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_gfnll_reviews.reviews_user" name="x_gfnll_reviews.reviews_user">14e349c0db09eb0076108d37489619c3</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

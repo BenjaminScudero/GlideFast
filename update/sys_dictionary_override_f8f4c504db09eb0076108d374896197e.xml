@@ -17,19 +17,19 @@
         <name>x_gfnll_reviews_reviews</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
-        <reference_qual>company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4</reference_qual>
+        <reference_qual>company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^ORrolesANYTHING</reference_qual>
         <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>Anthony.Desousa</sys_created_by>
         <sys_created_on>2018-10-04 16:41:01</sys_created_on>
         <sys_id>f8f4c504db09eb0076108d374896197e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>assigned_to</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_dictionary_override_f8f4c504db09eb0076108d374896197e</sys_update_name>
-        <sys_updated_by>Anthony.Desousa</sys_updated_by>
-        <sys_updated_on>2018-10-04 16:45:54</sys_updated_on>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-17 02:38:24</sys_updated_on>
     </sys_dictionary_override>
 </record_update>
