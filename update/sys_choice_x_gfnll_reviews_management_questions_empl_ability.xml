@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="empl_ability" table="x_gfnll_reviews_management_questions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>empl_ability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unacceptable</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sequence>0</sequence>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0f4d624db19274076108d3748961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>empl_ability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs Improvement</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sequence>1</sequence>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24f4d624db19274076108d3748961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>empl_ability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meets Expectations</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sequence>2</sequence>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0f4d624db19274076108d3748961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>empl_ability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exceeds Expectations</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sequence>3</sequence>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0f4d624db19274076108d3748961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>empl_ability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outstanding</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sequence>4</sequence>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60f4d624db19274076108d374896197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>empl_ability</element>
+            <name>x_gfnll_reviews_management_questions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 22:02:21</sys_created_on>
+            <sys_id>ecf4d624db19274076108d3748961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>empl_ability</sys_name>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_choice_x_gfnll_reviews_management_questions_empl_ability</sys_update_name>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 22:02:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="bc1f4e2cdbd5274076108d374896195e" sys_domain="global" table="x_gfnll_reviews_management_questions" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>341f4e2cdbd5274076108d3748961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_gfnll_reviews_management_questions" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">bc1f4e2cdbd5274076108d374896195e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">a72e4ee8dbd5274076108d3748961989</sys_ui_section>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:36:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>301f4e2cdbd5274076108d3748961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_gfnll_reviews_management_questions" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">bc1f4e2cdbd5274076108d374896195e</sys_ui_form>
+            <sys_ui_section caption="Questions" display_value="Questions" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">f41f822cdbd5274076108d3748961994</sys_ui_section>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:36:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>381f4e2cdbd5274076108d3748961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_gfnll_reviews_management_questions" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">bc1f4e2cdbd5274076108d374896195e</sys_ui_form>
+            <sys_ui_section caption="Additional comments" display_value="Additional comments" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">701f4e2cdbd5274076108d374896195e</sys_ui_section>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:36:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_gfnll_reviews_management_questions</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:36:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc1f4e2cdbd5274076108d374896195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_gfnll_reviews_management_questions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bc1f4e2cdbd5274076108d374896195e</sys_update_name>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:36:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

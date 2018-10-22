@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="empl_teamwork" label="Does the employee work well with co-workers, supervisors and subordinates?" language="en" table="x_gfnll_reviews_management_questions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>empl_teamwork</element>
+            <help/>
+            <hint/>
+            <label>Does the employee work well with co-workers, supervisors and subordinates?</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <plural>Does the employee work well with co-workers, supervisors and subordinates?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:32:30</sys_created_on>
+            <sys_id>571e462cdbd5274076108d3748961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Does the employee work well with co-workers, supervisors and subordinates?</sys_name>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_documentation_x_gfnll_reviews_management_questions_empl_teamwork_en</sys_update_name>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:32:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

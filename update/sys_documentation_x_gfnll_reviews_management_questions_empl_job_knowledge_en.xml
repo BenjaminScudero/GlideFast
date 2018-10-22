@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="empl_job_knowledge" label="Does the employee know how to do the job completely and correctly?" language="en" table="x_gfnll_reviews_management_questions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>empl_job_knowledge</element>
+            <help/>
+            <hint/>
+            <label>Does the employee know how to do the job completely and correctly?</label>
+            <language>en</language>
+            <name>x_gfnll_reviews_management_questions</name>
+            <plural>Does the employee know how to do the job completely and correctly?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Matt.dawson</sys_created_by>
+            <sys_created_on>2018-10-18 21:32:30</sys_created_on>
+            <sys_id>5b1e462cdbd5274076108d3748961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Does the employee know how to do the job completely and correctly?</sys_name>
+            <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+            <sys_update_name>sys_documentation_x_gfnll_reviews_management_questions_empl_job_knowledge_en</sys_update_name>
+            <sys_updated_by>Matt.dawson</sys_updated_by>
+            <sys_updated_on>2018-10-18 21:32:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

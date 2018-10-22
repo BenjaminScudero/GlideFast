@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="6" type="collection">
+    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="7" type="collection">
         <element label="Manager Assessment Score" max_length="40" name="assessment_score" type="string"/>
         <element label="Bonus Amount" max_length="20" name="bonus_amount" type="price"/>
         <element label="Job Title" max_length="40" name="job_title" read_only="true" type="string"/>
         <element label="Projects Worked" max_length="4000" name="projects_worked" reference="u_time_sheet_projects" type="glide_list"/>
         <element label="Reviewer" mandatory="true" max_length="32" name="reviewer" reference="sys_user" reference_qual="company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ" reference_qual_condition="company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ" type="reference"/>
-        <element label="Reviewer(s)" max_length="4000" name="reviewer_s" type="glide_list"/>
+        <element label="Reviewer(s)" mandatory="true" max_length="4000" name="reviewer_s" reference="sys_user" type="glide_list"/>
         <element choice="3" default="2018" label="Review Year" max_length="40" name="review_year" type="string">
             <choice>
                 <element label="2018" value="2018"/>
@@ -17,7 +17,7 @@
             </choice>
         </element>
         <element label="Salary Percent Increase" max_length="15" name="salary_percent_increase" type="decimal"/>
-        <element label="Self Assessment Score" max_length="40" name="self_assessment_score" type="string"/>
+        <element label="Self Assessment Score" max_length="40" name="self_assessment_score" read_only="true" type="string"/>
         <element choice="3" default="6" label="Time Period" max_length="40" name="time_period" type="string">
             <choice>
                 <element label="6 months" sequence="100" value="6"/>

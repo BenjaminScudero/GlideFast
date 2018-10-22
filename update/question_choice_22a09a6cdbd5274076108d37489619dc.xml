@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>3</order>
+        <question display_value="Do you feel that you know how to do your job completely and correctly?">22a09a6cdbd5274076108d37489619ce</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Matt.dawson</sys_created_by>
+        <sys_created_on>2018-10-18 21:43:39</sys_created_on>
+        <sys_id>22a09a6cdbd5274076108d37489619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meets Expectations</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>question_choice_22a09a6cdbd5274076108d37489619dc</sys_update_name>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-18 21:43:39</sys_updated_on>
+        <text>Meets Expectations</text>
+        <value>3</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=22a09a6cdbd5274076108d37489619dc"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>22a09a6cdbd5274076108d37489619dc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Matt.dawson</sys_created_by>
+        <sys_created_on>2018-10-18 21:43:39</sys_created_on>
+        <sys_id>a2a09a6cdbd5274076108d37489619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-18 21:43:39</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>22a09a6cdbd5274076108d37489619dc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Matt.dawson</sys_created_by>
+        <sys_created_on>2018-10-18 21:43:39</sys_created_on>
+        <sys_id>6aa09a6cdbd5274076108d37489619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-18 21:43:39</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

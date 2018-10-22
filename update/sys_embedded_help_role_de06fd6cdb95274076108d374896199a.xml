@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_gfnll_reviews.employee_questions_user" name="x_gfnll_reviews.employee_questions_user">5606316cdb95274076108d3748961900</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Matt.dawson</sys_created_by>
+        <sys_created_on>2018-10-18 19:47:18</sys_created_on>
+        <sys_id>de06fd6cdb95274076108d374896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5606316cdb95274076108d3748961900</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sys_embedded_help_role_de06fd6cdb95274076108d374896199a</sys_update_name>
+        <sys_updated_by>Matt.dawson</sys_updated_by>
+        <sys_updated_on>2018-10-18 19:47:18</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
