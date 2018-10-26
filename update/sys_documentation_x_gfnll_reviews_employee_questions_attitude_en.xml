@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="attitude" label="Do you demonstrate a positive attitude and enthusiasm for the job?" language="en" table="x_gfnll_reviews_employee_questions">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>attitude</element>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="7" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="1" type="collection">
         <element label="Manager Assessment Score" max_length="40" name="assessment_score" type="string"/>
         <element label="Bonus Amount" max_length="20" name="bonus_amount" type="price"/>
         <element label="Job Title" max_length="40" name="job_title" read_only="true" type="string"/>
@@ -9,19 +8,19 @@
         <element label="Reviewer(s)" mandatory="true" max_length="4000" name="reviewer_s" reference="sys_user" type="glide_list"/>
         <element choice="3" default="2018" label="Review Year" max_length="40" name="review_year" type="string">
             <choice>
-                <element label="2018" value="2018"/>
-                <element label="2019" value="2019"/>
-                <element label="2020" value="2020"/>
-                <element label="2021" value="2021"/>
-                <element label="2022" value="2022"/>
+                <element inactive_on_update="false" label="2018" value="2018"/>
+                <element inactive_on_update="false" label="2019" value="2019"/>
+                <element inactive_on_update="false" label="2020" value="2020"/>
+                <element inactive_on_update="false" label="2021" value="2021"/>
+                <element inactive_on_update="false" label="2022" value="2022"/>
             </choice>
         </element>
         <element label="Salary Percent Increase" max_length="15" name="salary_percent_increase" type="decimal"/>
         <element label="Self Assessment Score" max_length="40" name="self_assessment_score" read_only="true" type="string"/>
         <element choice="3" default="6" label="Time Period" max_length="40" name="time_period" type="string">
             <choice>
-                <element label="6 months" sequence="100" value="6"/>
-                <element label="12 months" sequence="200" value="12"/>
+                <element inactive_on_update="false" label="6 months" sequence="100" value="6"/>
+                <element inactive_on_update="false" label="12 months" sequence="200" value="12"/>
             </choice>
         </element>
     </element>

@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Goals" max_length="40" name="x_gfnll_reviews_goals" sizeclass="2" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Goals" max_length="40" name="x_gfnll_reviews_goals" type="collection">
         <element choice="1" label="Goal Type" max_length="40" name="goal_type" type="string">
             <choice>
-                <element label="Certification" value="certification"/>
-                <element label="Internal Activity" value="internal activity"/>
-                <element label="Recertification" value="recertification"/>
-                <element label="Sales" value="sales"/>
-                <element label="Training" value="training"/>
+                <element inactive_on_update="false" label="Certification" value="certification"/>
+                <element inactive_on_update="false" label="Internal Activity" value="internal activity"/>
+                <element inactive_on_update="false" label="Recertification" value="recertification"/>
+                <element inactive_on_update="false" label="Sales" value="sales"/>
+                <element inactive_on_update="false" label="Training" value="training"/>
             </choice>
         </element>
         <element label="Review" max_length="32" name="review" read_only="true" reference="x_gfnll_reviews_reviews" type="reference"/>

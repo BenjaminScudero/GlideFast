@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>sysverb_insert</action_name>
         <active>true</active>
         <client>false</client>
-        <comments>Submit button on existing (not new) records.&#13;
-Behavior is to update then redirect to previous screen (usually a list)</comments>
+        <client_script_v2/>
+        <comments>Closes assessment when submitted.</comments>
         <condition/>
         <form_action>true</form_action>
         <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint/>
+        <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -36,15 +38,15 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a5752e78db11674076108d37489619fe</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_ui_action_a5752e78db11674076108d37489619fe</sys_update_name>
-        <sys_updated_by>Matt.dawson</sys_updated_by>
-        <sys_updated_on>2018-10-19 18:01:46</sys_updated_on>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-10-26 17:09:26</sys_updated_on>
         <table>x_gfnll_reviews_employee_questions</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="empl_work_accuracy" label="How accurate, complete and timely is the employee's work?" language="en" table="x_gfnll_reviews_management_questions">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>empl_work_accuracy</element>

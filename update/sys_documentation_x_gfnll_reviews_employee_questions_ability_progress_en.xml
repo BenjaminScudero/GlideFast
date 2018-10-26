@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="ability_progress" label="Do you feel that you are progressing in overall ability and professionalism?" language="en" table="x_gfnll_reviews_employee_questions">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ability_progress</element>

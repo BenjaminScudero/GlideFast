@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="reviewer" table="x_gfnll_reviews_reviews">
         <active>true</active>
         <array>false</array>
@@ -47,7 +46,7 @@
         <reference_key/>
         <reference_qual>company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ</reference_qual>
         <reference_qual_condition table="sys_user">company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ<item display_table="core_company" display_value="GlideFast" endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="f66b14e1c611227b0166c3a0df4046ff"/>
-            <item display_table="core_company" display_value="Pharicode" endquery="false" field="company" goto="false" newquery="false" operator="=" or="true" value="89a018ebdb4303005ec815ce3b9619a4"/>
+            <item endquery="false" field="company" goto="false" newquery="false" operator="=" or="true" value="89a018ebdb4303005ec815ce3b9619a4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -57,7 +56,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Anthony.Desousa</sys_created_by>
         <sys_created_on>2018-10-04 16:53:40</sys_created_on>
-        <sys_id>ca79eee9db49af0076108d374896193a</sys_id>
+        <sys_id>56c2c0eadb1523001b96d2984b96193f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Reviewer</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
@@ -65,7 +64,7 @@
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_dictionary_x_gfnll_reviews_reviews_reviewer</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-10-09 15:50:16</sys_updated_on>
+        <sys_updated_on>2018-10-24 16:31:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

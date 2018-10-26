@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="asmt_metric_definition">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
     <asmt_metric_definition action="INSERT_OR_UPDATE">
         <display>Outstanding</display>
         <metric display_value="New Choice">0937aae5db45a340d9e65d4e5e96193a</metric>

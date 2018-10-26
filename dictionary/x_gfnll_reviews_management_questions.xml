@@ -1,97 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Management Questions" max_length="40" name="x_gfnll_reviews_management_questions" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Management Questions" max_length="40" name="x_gfnll_reviews_management_questions" sizeclass="1" type="collection">
         <element choice="1" label="Is the employee progressing in overall ability and professionalism?" mandatory="true" max_length="40" name="empl_ability" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Ability and professionalism comments" mandatory="true" max_length="4000" name="empl_ability_comments" type="string"/>
         <element label="Work accuracy comments" mandatory="true" max_length="4000" name="empl_accuracy_comments" type="string"/>
         <element choice="1" label="Does the employee demonstrate a positive attitude and enthusiasm for the job?" mandatory="true" max_length="40" name="empl_attitude" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Attitude comments" mandatory="true" max_length="4000" name="empl_attitude_comments" type="string"/>
         <element choice="1" label="Does the employee know how to do the job completely and correctly?" mandatory="true" max_length="40" name="empl_job_knowledge" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element choice="1" label="Does the employee demonstrate leadership in the company?" mandatory="true" max_length="40" name="empl_leadership" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Leadership comments" mandatory="true" max_length="4000" name="empl_leadership_comments" type="string"/>
         <element choice="1" label="Is the employee punctual?  Can the employee be counted on to get the job done?" mandatory="true" max_length="40" name="empl_reliability" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Reliability comments" mandatory="true" max_length="4000" name="empl_reliability_comments" type="string"/>
         <element choice="1" label="Does the employee possess the skills necessary to accomplish the job?" mandatory="true" max_length="40" name="empl_skills" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Skills comments" mandatory="true" max_length="4000" name="empl_skills_comments" type="string"/>
         <element choice="1" label="Does the employee work well with co-workers, supervisors and subordinates?" mandatory="true" max_length="40" name="empl_teamwork" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Teamwork comments" mandatory="true" max_length="4000" name="empl_teamwork_comments" type="string"/>
         <element choice="1" label="How accurate, complete and timely is the employee's work?" mandatory="true" max_length="40" name="empl_work_accuracy" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element choice="1" label="How does the employees work compare with what is expected in this position?" mandatory="true" max_length="40" name="empl_work_comparison" type="choice">
             <choice>
-                <element label="Unacceptable" sequence="0" value="1"/>
-                <element label="Needs Improvement" sequence="1" value="2"/>
-                <element label="Meets Expectations" sequence="2" value="3"/>
-                <element label="Exceeds Expectations" sequence="3" value="4"/>
-                <element label="Outstanding" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
         <element label="Work position comparison comments" mandatory="true" max_length="4000" name="empl_work_comparison_comments" type="string"/>
         <element label="Job competency comments" mandatory="true" max_length="4000" name="job_knowledge_comments" type="string"/>
-        <element label="Review" max_length="32" name="review" reference="x_gfnll_reviews_reviews" type="reference"/>
-        <element label="Score" max_length="40" name="score" type="string"/>
+        <element label="Review" max_length="32" name="review" read_only="true" reference="x_gfnll_reviews_reviews" type="reference"/>
+        <element label="Score" max_length="40" name="score" read_only="true" type="string"/>
     </element>
 </database>
