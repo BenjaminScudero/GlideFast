@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="1" type="collection">
-        <element label="Manager Assessment Score" max_length="40" name="assessment_score" type="string"/>
+    <element extends="task" label="Reviews" max_length="40" name="x_gfnll_reviews_reviews" sizeclass="7" type="collection">
+        <element label="Manager Assessment Score" max_length="40" name="assessment_score" read_only="true" type="string"/>
         <element label="Bonus Amount" max_length="20" name="bonus_amount" type="price"/>
         <element label="Job Title" max_length="40" name="job_title" read_only="true" type="string"/>
-        <element label="Projects Worked" max_length="4000" name="projects_worked" reference="u_time_sheet_projects" type="glide_list"/>
+        <element label="Projects Worked" max_length="4000" name="projects_worked" reference="u_time_sheet_projects" reference_qual="javascript:new reviewUtils().getPrj(current.time_period);" type="glide_list" use_reference_qualifier="advanced"/>
         <element label="Reviewer" mandatory="true" max_length="32" name="reviewer" reference="sys_user" reference_qual="company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ" reference_qual_condition="company=f66b14e1c611227b0166c3a0df4046ff^ORcompany=89a018ebdb4303005ec815ce3b9619a4^EQ" type="reference"/>
         <element label="Reviewer(s)" mandatory="true" max_length="4000" name="reviewer_s" reference="sys_user" type="glide_list"/>
         <element choice="3" default="2018" label="Review Year" max_length="40" name="review_year" type="string">

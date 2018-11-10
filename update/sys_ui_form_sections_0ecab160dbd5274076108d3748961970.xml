@@ -28,6 +28,20 @@
             <sys_updated_by>Matt.dawson</sys_updated_by>
             <sys_updated_on>2018-10-18 20:08:02</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Matthew.Dawson</sys_created_by>
+            <sys_created_on>2018-10-26 23:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcdfa78bdbdd630076108d3748961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_gfnll_reviews_employee_questions" name="x_gfnll_reviews_employee_questions" sys_domain="global" view="Default view">0ecab160dbd5274076108d3748961970</sys_ui_form>
+            <sys_ui_section caption="Additional Comments" display_value="Additional Comments" name="x_gfnll_reviews_employee_questions" sys_domain="global" view="Default view">7cdfa78bdbdd630076108d374896197f</sys_ui_section>
+            <sys_updated_by>Matthew.Dawson</sys_updated_by>
+            <sys_updated_on>2018-10-26 23:04:13</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_gfnll_reviews_employee_questions</name>
             <roles/>

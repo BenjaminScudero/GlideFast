@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_gfnll_reviews.reviewUtils</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>reviewUtils</name>
+        <script><![CDATA[var reviewUtils = Class.create();
+reviewUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+	getProjects:function(){ // function to return the projects that employee has worked on
+		var user = this.getParameter('sysparm_user_name'); // employee name on review record
+		var timePeriod = this.getParameter('sysparm_time_period'); // time period variable value
+		var prjArray = [];
+		var rtnPrj = '';
+
+		var tspt = new GlideRecord('u_time_sheet_project_task'); //get Time Sheet Project Tasks table
+		tspt.addQuery('assigned_to',user); // where assigned to = review employee name
+		tspt.addEncodedQuery('opened_atRELATIVEGE@month@ago@' + timePeriod); // returns project tasks that were opened within the time period set on review record
+		tspt.query();
+
+		while(tspt.next()){
+			prjArray.push(tspt.getDisplayValue('u_time_sheet_project'));
+		}
+		rtnPrj = prjArray.toString();
+		return rtnPrj;
+	},
+
+	getPrj: function(time){ // returns a query for reference qualifier based on value of time period variable
+		var ref = 'opened_atRELATIVEGE@month@ago@' + time;
+		return ref;
+	},
+
+	type: 'reviewUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Matthew.Dawson</sys_created_by>
+        <sys_created_on>2018-11-08 03:45:27</sys_created_on>
+        <sys_id>4f13a687db69ab0076108d374896191c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>reviewUtils</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sys_script_include_4f13a687db69ab0076108d374896191c</sys_update_name>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-11-08 17:12:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

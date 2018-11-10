@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Reminder notification</description>
+        <event_name>x_gfnll_reviews.mgr_assessment_reminder</event_name>
+        <fired_by>Workflow</fired_by>
+        <queue/>
+        <suffix>mgr_assessment_reminder</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>Matthew.Dawson</sys_created_by>
+        <sys_created_on>2018-11-02 16:24:11</sys_created_on>
+        <sys_id>c93712d9dbe9a70076108d374896195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_gfnll_reviews.mgr_assessment_reminder</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sysevent_register_c93712d9dbe9a70076108d374896195c</sys_update_name>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-11-02 16:24:11</sys_updated_on>
+        <table>x_gfnll_reviews_management_questions</table>
+    </sysevent_register>
+</record_update>

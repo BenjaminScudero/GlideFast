@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_gfnll_reviews.mgr_assessment_inserted</event_name>
+        <fired_by>Workflow</fired_by>
+        <queue/>
+        <suffix>mgr_assessment_inserted</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>Matthew.Dawson</sys_created_by>
+        <sys_created_on>2018-11-02 16:21:08</sys_created_on>
+        <sys_id>3356d699dbe9a70076108d37489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_gfnll_reviews.mgr_assessment_inserted</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sysevent_register_3356d699dbe9a70076108d37489619c2</sys_update_name>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-11-02 16:21:08</sys_updated_on>
+        <table>x_gfnll_reviews_management_questions</table>
+    </sysevent_register>
+</record_update>

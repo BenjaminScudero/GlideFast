@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Employee Questions" max_length="40" name="x_gfnll_reviews_employee_questions" sizeclass="1" type="collection">
+    <element extends="task" label="Employee Questions" max_length="40" name="x_gfnll_reviews_employee_questions" sizeclass="10" type="collection">
         <element choice="1" label="Do you feel that you are progressing in overall ability and professionalism?" mandatory="true" max_length="40" name="ability_progress" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -9,7 +9,7 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Ability and professionalism comments" max_length="4000" name="ability_progress_comments" type="string"/>
+        <element label="Ability and professionalism comments" mandatory="true" max_length="4000" name="ability_progress_comments" type="string"/>
         <element choice="1" label="Do you demonstrate a positive attitude and enthusiasm for the job?" mandatory="true" max_length="40" name="attitude" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -19,7 +19,7 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Attitude and positivity comments" max_length="4000" name="attitude_comments" type="string"/>
+        <element label="Attitude and positivity comments" mandatory="true" max_length="4000" name="attitude_comments" type="string"/>
         <element choice="1" label="Do you feel that you know how to do your job completely and correctly?" mandatory="true" max_length="40" name="job_knowledge" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -39,7 +39,7 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Leadership comments" max_length="4000" name="leadership_comments" type="string"/>
+        <element label="Leadership comments" mandatory="true" max_length="4000" name="leadership_comments" type="string"/>
         <element choice="1" label="How punctual are you?  Can you be counted on to get the job done?" mandatory="true" max_length="40" name="personal_reliability" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -49,10 +49,10 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Reliability comments" max_length="4000" name="reliability_comments" type="string"/>
+        <element label="Reliability comments" mandatory="true" max_length="4000" name="reliability_comments" type="string"/>
         <element label="Review" max_length="32" name="review" read_only="true" reference="x_gfnll_reviews_reviews" type="reference"/>
-        <element label="Job skills comments" max_length="4000" name="skills_comments" type="string"/>
-        <element choice="1" label="Do you feel that you possess the skills necessary to accomplish your job?" max_length="40" name="skill_level" type="choice">
+        <element label="Job skills comments" mandatory="true" max_length="4000" name="skills_comments" type="string"/>
+        <element choice="1" label="Do you feel that you possess the skills necessary to accomplish your job?" mandatory="true" max_length="40" name="skill_level" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="2"/>
@@ -70,7 +70,7 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Teamwork comments" max_length="4000" name="teamwork_comments" type="string"/>
+        <element label="Teamwork comments" mandatory="true" max_length="4000" name="teamwork_comments" type="string"/>
         <element choice="1" label="How accurate, complete and timely is your work?" mandatory="true" max_length="40" name="work_accuracy" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -80,7 +80,7 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Work accuracy comments" max_length="4000" name="work_accuracy_comments" type="string"/>
+        <element label="Work accuracy comments" mandatory="true" max_length="4000" name="work_accuracy_comments" type="string"/>
         <element choice="1" label="How does your work compare with what is expexted of someone in your position?" mandatory="true" max_length="40" name="work_comparison" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unacceptable" sequence="0" value="1"/>
@@ -90,6 +90,6 @@
                 <element inactive_on_update="false" label="Outstanding" sequence="4" value="5"/>
             </choice>
         </element>
-        <element label="Work position comparison comments" max_length="4000" name="work_comparison_comments" type="string"/>
+        <element label="Work position comparison comments" mandatory="true" max_length="4000" name="work_comparison_comments" type="string"/>
     </element>
 </database>
