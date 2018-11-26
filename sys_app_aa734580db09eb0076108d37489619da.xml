@@ -23,14 +23,14 @@
         <sys_created_by>Anthony.Desousa</sys_created_by>
         <sys_created_on>2018-10-04 16:33:45</sys_created_on>
         <sys_id>aa734580db09eb0076108d37489619da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>jared.shafton</sys_updated_by>
-        <sys_updated_on>2018-11-20 16:46:11</sys_updated_on>
+        <sys_updated_on>2018-11-26 03:03:07</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>
