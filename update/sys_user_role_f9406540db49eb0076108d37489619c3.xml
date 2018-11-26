@@ -2,7 +2,7 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description/>
+        <description>Can administer the Goals table</description>
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
@@ -14,13 +14,13 @@
         <sys_created_by>Anthony.Desousa</sys_created_by>
         <sys_created_on>2018-10-04 18:39:35</sys_created_on>
         <sys_id>f9406540db49eb0076108d37489619c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_gfnll_reviews.goals_user</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_user_role_f9406540db49eb0076108d37489619c3</sys_update_name>
-        <sys_updated_by>Anthony.Desousa</sys_updated_by>
-        <sys_updated_on>2018-10-04 18:39:35</sys_updated_on>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-11-26 22:54:55</sys_updated_on>
     </sys_user_role>
 </record_update>
