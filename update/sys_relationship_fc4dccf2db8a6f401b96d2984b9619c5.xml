@@ -10,6 +10,7 @@
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
 	current.addQuery('u_user', parent.assigned_to);
+	current.addQuery('u_active', true);
 
 })(current, parent);]]></query_with>
         <reference_field>u_user</reference_field>
@@ -19,14 +20,14 @@
         <sys_created_by>Michael.Lombardo</sys_created_by>
         <sys_created_on>2018-12-01 18:42:57</sys_created_on>
         <sys_id>fc4dccf2db8a6f401b96d2984b9619c5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Certs</sys_name>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sys_relationship_fc4dccf2db8a6f401b96d2984b9619c5</sys_update_name>
-        <sys_updated_by>Michael.Lombardo</sys_updated_by>
-        <sys_updated_on>2018-12-01 19:23:17</sys_updated_on>
+        <sys_updated_by>jared.shafton</sys_updated_by>
+        <sys_updated_on>2018-12-05 22:43:16</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=fc4dccf2db8a6f401b96d2984b9619c5"/>
 </record_update>
