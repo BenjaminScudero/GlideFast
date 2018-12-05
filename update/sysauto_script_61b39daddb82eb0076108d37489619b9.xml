@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Generate new records</name>
+        <run_as display_value="Matthew Dawson">c2c6b514db68af001d1bd7764896193c</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-11-28 02:38:22</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var users = new GlideRecord('sys_user');
+users.addEncodedQuery('active=true^company=f4cab471dbaf8b0061d464904b96194d^ORcompany=beeab471dbaf8b0061d464904b961950^name!=GlideFast Developer^ORname=NULL^name!=Pharicode Variance^ORname=NULL^nameNOT LIKEtest'); // Only Active Glidefast and Pharicode employees, name does not contain test
+users.setLimit(117); // set limit for safety - as of 11/27/18 should only return 117 employees - can be removed or changed
+users.query();
+var userList = [];
+var count = 0;
+
+var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+var now = new Date();
+var thisMonth = months[now.getMonth()]; // getMonth method returns the month of the date (0-January :: 11-December)
+var year = now.getFullYear();
+var mYr = thisMonth + ' ' + year;
+
+while(users.next()){
+	count ++;
+	userList.push(users.name.getDisplayValue());
+	var rev = new GlideRecord('x_gfnll_reviews_reviews');
+	rev.initialize();
+	rev.short_description = users.name.getDisplayValue() + ' Review, ' + mYr;
+	rev.state = 1;
+	rev.assigned_to = users.name.getDisplayValue();
+	rev.insert();
+}
+
+gs.info('Review records created for users: ' + userList + '\n' + 'Total Count: ' + count);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Matthew.Dawson</sys_created_by>
+        <sys_created_on>2018-11-28 02:47:12</sys_created_on>
+        <sys_id>61b39daddb82eb0076108d37489619b9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Generate new records</sys_name>
+        <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
+        <sys_update_name>sysauto_script_61b39daddb82eb0076108d37489619b9</sys_update_name>
+        <sys_updated_by>Matthew.Dawson</sys_updated_by>
+        <sys_updated_on>2018-11-28 04:52:12</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

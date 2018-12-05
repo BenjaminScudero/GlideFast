@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_gfnll_reviews_management_questions</collection>
+        <collection>x_gfnll_reviews_reviews</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -45,7 +45,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_fields>reviewer_s</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -60,15 +60,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4aade1ddbe9a70076108d374896197d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>New manager review assessment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reviews" source="x_gfnll_reviews">aa734580db09eb0076108d37489619da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reviews">aa734580db09eb0076108d37489619da</sys_scope>
         <sys_update_name>sysevent_email_action_b4aade1ddbe9a70076108d374896197d</sys_update_name>
-        <sys_updated_by>Matthew.Dawson</sys_updated_by>
-        <sys_updated_on>2018-11-02 16:44:43</sys_updated_on>
+        <sys_updated_by>Michael.Lombardo</sys_updated_by>
+        <sys_updated_on>2018-12-01 18:33:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
