@@ -3,16 +3,30 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
             <position>0</position>
-            <sys_created_by>Matt.dawson</sys_created_by>
-            <sys_created_on>2018-10-18 21:36:42</sys_created_on>
-            <sys_id>3c1f4e2cdbd5274076108d3748961984</sys_id>
+            <sys_created_by>jared.shafton</sys_created_by>
+            <sys_created_on>2018-12-06 15:09:16</sys_created_on>
+            <sys_id>5b4c8ddcdbdea30076108d37489619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional comments" display_value="Additional comments" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">701f4e2cdbd5274076108d374896195e</sys_ui_section>
-            <sys_updated_by>Matt.dawson</sys_updated_by>
-            <sys_updated_on>2018-10-18 21:36:42</sys_updated_on>
+            <sys_updated_by>jared.shafton</sys_updated_by>
+            <sys_updated_on>2018-12-06 15:09:16</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>jared.shafton</sys_created_by>
+            <sys_created_on>2018-12-06 15:09:16</sys_created_on>
+            <sys_id>134c8ddcdbdea30076108d37489619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Additional comments" display_value="Additional comments" name="x_gfnll_reviews_management_questions" sys_domain="global" view="Default view">701f4e2cdbd5274076108d374896195e</sys_ui_section>
+            <sys_updated_by>jared.shafton</sys_updated_by>
+            <sys_updated_on>2018-12-06 15:09:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Additional comments</caption>

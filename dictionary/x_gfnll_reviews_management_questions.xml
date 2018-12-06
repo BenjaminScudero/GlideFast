@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Management Questions" max_length="40" name="x_gfnll_reviews_management_questions" sizeclass="22" type="collection">
+    <element audit="true" extends="task" label="Management Questions" max_length="40" name="x_gfnll_reviews_management_questions" sizeclass="22" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Employee" max_length="40" name="employee" read_only="true" type="string"/>
         <element choice="1" label="Is the employee progressing in overall ability and professionalism?" mandatory="true" max_length="40" name="empl_ability" type="choice">
             <choice>
